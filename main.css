@@ -1,0 +1,83 @@
+
+.gg{
+background-color: red;
+width: 500px;
+height: 500px;
+
+
+}
+.gg:active{
+    background-color: rgb(255, 251, 0);
+}
+.gg:hover{
+    background-color: black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin:10px;
+
+     animation-name: animaton-name;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box1{
+    background-color: aliceblue;
+}
+.box2{
+    background-color: goldenrod;
+}
+
+.box3{
+    background-color: darkblue;
+}
+
+.box4{
+    background-color: black;
+}
+.box5{
+    background-color: brown;
+}
+@keyframes animation {
+    0%{
+        margin-left: 500px;
+        background-color: white;
+    }
+    
+}
+.box{
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-name: animation;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box1{
+    animation-timing-function: ease;
+    background-color: antiquewhite;
+}
+
+.box2{
+    animation-timing-function: ease-in-out;
+    background-color: darkred;
+}
+.box3{
+    animation-timing-function: linear;
+    background-color: rgb(251, 255, 0);
+}
+
+.box4{
+    animation-timing-function:ease-in-out ;
+    background-color: teal;
+}
+.box5{
+    animation-timing-function:ease ;
+    background-color: whitesmoke;
+}
+
+
+
+
